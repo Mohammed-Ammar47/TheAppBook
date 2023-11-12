@@ -25,9 +25,10 @@ export default function WeatherForeCast() {
             setWeatherData(res.data);
             const todayWeather = res.data.list.slice(0, 8);
             const cdfIndexes = [0, 7, 15, 23, 31];
-            const comingDaysWeather = res.data.list.filter(
-              (data: any, index: number) => cdfIndexes.includes(index)
-            );
+            const comingDaysWeather: any = [];
+            cdfIndexes.forEach((index: number) => {
+              comingDaysWeather.push(res.data.list[index]);
+            });
             setTodayDayForecast(todayWeather);
             setComingDaysForecast(comingDaysWeather);
           });
