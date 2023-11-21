@@ -32,9 +32,11 @@ export default function Home() {
   ];
   return (
     <>
-      <div className="justify-center items-center p-10 min-h-screen bg-[#1c2025]">
-        <h1 className="text-center text-white font-semibold text-7xl">Home</h1>
-        <ul className="grid grid-cols-1 sm:grid-cols-4 gap-3 sm:gap-5 mt-5 mb-5">
+      <div className="justify-center items-center px-10 min-h-screen bg-[#183C57]">
+        <h1 className="text-center text-white font-semibold text-7xl p-5">
+          Home
+        </h1>
+        <ul className="grid grid-cols-1 sm:grid-cols-4 gap-3 sm:gap-5 pt-5 pb-5">
           {apps.map((app) => (
             <AppCard key={app.id} app={app} />
           ))}

@@ -4,6 +4,8 @@ import { AiOutlineSearch } from "react-icons/ai";
 import ComingDaysWeatherItem from "./ComingDaysWeatherItem";
 import Carol from "./Carol";
 import CurrentMomentWeather from "./CurrentMomentWeather";
+// import "./Backgroundimage1.jpeg";
+
 export default function WeatherForeCast() {
   const [weatherData, setWeatherData] = useState<any>();
   const [loading, setLoading] = useState<boolean>(true);

@@ -32,7 +32,7 @@ export default function TemperatureConvertor() {
 
   return (
     <>
-      <main className="w-full h-screen flex justify-center items-center bg-[#1c2025]">
+      <main className="w-full h-screen flex justify-center items-center bg-[#183C57]">
         <div className="w-full flex flex-col  justify-center items-center bg-[#27282f]    my-5 p-5 mx-5  lg:mx-auto  rounded-lg shadow-lg max-w-xl lg:max-w-xl">
           <h2 className=" justify-center text-center text-lg md:text-3xl font-semibold text-white pb-6">
             Unit Convertor
