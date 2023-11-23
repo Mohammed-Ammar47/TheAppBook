@@ -42,7 +42,7 @@ export default function Notes() {
     });
   }
   return (
-    <div className="flex flex-col p-2 sm:p-5 fontNunito bg-[#265073] text-white">
+    <div className="flex flex-col p-2 sm:p-5 fontNunito bg-[#265073] text-white min-h-screen">
       <h1 className="text-center text-4xl sm:text-6xl font-semibold py-3 sm:py-5">
         Ma Notes
       </h1>
