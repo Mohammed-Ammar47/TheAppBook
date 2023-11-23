@@ -20,6 +20,7 @@ export default function Home() {
       appDescription:
         "TempConvert: Effortlessly switch between Celsius, Fahrenheit, and Kelvin. Your go-to app for quick and accurate temperature conversions, anytime, anywhere.",
     },
+
     {
       id: 2,
       appName: "Weather Forecast",
@@ -28,6 +29,15 @@ export default function Home() {
         "https://imgs.search.brave.com/SXUs8oVr-pwA0_8Kc-EYEzJBQElrsQsU-JqImnRXR04/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMz/MDQwNTM3My9waG90/by9leHRyZW1lLXdl/YXRoZXItb24tZWFy/dGgtYmFja2dyb3Vu/ZC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9NkM2eW1Xc3FG/R3UwVHo1UUJBNVRs/UmZXU2hGUDdQUGZW/eV9DLW5vXzdfND0",
       appDescription:
         "Stay ahead with WeatherNow: Accurate forecasts, real-time updates, and intuitive design. Your essential companion for weather information on the go.",
+    },
+    {
+      id: 3,
+      appName: "Ma Notes",
+      appLink: "/maNotes",
+      appImg:
+        "https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      appDescription:
+        "Effortlessly capture your thoughts, ideas, and inspirations using our user-friendly note app. Access your ideas anytime, anywhere.",
     },
   ];
   return (

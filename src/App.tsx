@@ -20,7 +20,7 @@ function App() {
             element={<TemperatureConvertor />}
           />
           <Route path="/weatherForecast" element={<WeatherForeCast />} />
-          <Route path="/notes" element={<Notes />} />
+          <Route path="/maNotes" element={<Notes />} />
         </Routes>
       </BrowserRouter>
     </>
