@@ -10,7 +10,7 @@ export default function Header() {
           navigate("/");
         }}
         src={logo}
-        className="h-10 sm:h-28 cursor-pointer
+        className="h-14 sm:h-28 cursor-pointer
     "
       />
     </header>
