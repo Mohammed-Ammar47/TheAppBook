@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import TemperatureConvertor from "./apps/temperatureConvertor/TemperatureConvertor";
 import WeatherForeCast from "./apps/WeatherApp/WeatherForeCast";
 import Notes from "./apps/NotesApp/Notes";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/weatherForecast" element={<WeatherForeCast />} />
           <Route path="/maNotes" element={<Notes />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

@@ -42,7 +42,7 @@ export default function Home() {
   ];
   return (
     <>
-      <div className="justify-center items-center px-10 min-h-screen bg-[#183C57]">
+      <div className="justify-center items-center px-10 min-h-screen bg-[#183C57] pb-10">
         <h1 className="text-center text-white font-semibold text-7xl p-5">
           Home
         </h1>
