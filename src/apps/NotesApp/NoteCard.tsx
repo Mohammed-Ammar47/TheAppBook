@@ -19,12 +19,12 @@ export default function NoteCard({ noteData, onDelete, onUpdate }: NoteProps) {
     <>
       <li className="flex flex-col gap-2 bg-[#ECF4D6] h-72 justify-between rounded-lg">
         <div className="flex flex-col gap-2 p-3">
-          <p className="text-2xl text-[#2D9596] font-medium">
+          <p className="text-2xl text-[#2D9596] font-medium truncate">
             {noteData.title}
           </p>
-          <p className="text-lg text-[#2D9596] ">
+          <p className="text-lg text-[#2D9596] flex-wrap">
             <TextTruncate
-              line={6}
+              line={5}
               element="span"
               truncateText="…"
               text={noteData.body}
